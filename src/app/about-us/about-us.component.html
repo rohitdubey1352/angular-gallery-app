@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+
+<body>
+
+    <section [class]="'about_us'">
+        <h2>{{name | uppercase}}</h2>
+
+        <div [class]="'about_content'">
+            <h1>{{title}}</h1>
+            <div class="container">
+                <div class="container_content">
+                    <p>
+                        {{para}}
+                    </p>
+                    <p>
+                        {{para}}
+                    </p>
+                </div>
+                <div class="container_img">
+                    <img [src]="contentImg" alt="img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

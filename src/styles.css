@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: rgb(250, 235, 215);
+
+}
+
+h1 {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding-bottom: .4rem;
+    border-bottom: .1rem solid #232323;
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        width: 60%;
+        font-size: 1.4rem;
+    }
+
+}

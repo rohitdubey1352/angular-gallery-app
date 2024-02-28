@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <br>
+    <h2>{{title}}</h2>
+    <br>
+
+    <div [class]="'imgGroup'">
+        <div [class]="'aboutImg'">
+            <img [src]="url" alt="img">
+            <h3>About the image:</h3>
+            <ul>
+                <li *ngFor="let details of aboutImg">
+                    {{details}}
+                </li>
+            </ul>
+        </div>
+        <div [class]="'aboutImg'">
+            <img [src]="url1" alt="img">
+            <h3>About the image:</h3>
+            <ul>
+                <li *ngFor="let details of aboutImg1">
+                    {{details}}
+                </li>
+            </ul>
+        </div>
+        <div [class]="'aboutImg'">
+            <img [src]="url2" alt="img">
+            <h3>About the image:</h3>
+            <ul>
+                <li *ngFor="let details of aboutImg2">
+                    {{details}}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
