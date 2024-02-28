@@ -72,14 +72,13 @@ export class HomeComponent {
   aboutImg2: string[];
 
   url= 'https://images.pexels.com/photos/20147829/pexels-photo-20147829/free-photo-of-businesswoman-in-black-suit.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load';
-  url1 = '../assets/img (2).png';
-  url2 = '../assets/img (1).jpg';
+  url1 = 'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+  url2 = 'https://images.pexels.com/photos/18822072/pexels-photo-18822072/free-photo-of-exterior-of-a-modern-residential-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
   constructor(){
     this.title="Photo Gallery";  
     this.aboutImg = ['Lora','Business','USA'];
-    this.aboutImg1 = ['Benz','Car Model','India'];
-    this.aboutImg2 = ['Ford','Car Model','India'];
+    this.aboutImg1 = ['Sports Car','Car Model','India'];
+    this.aboutImg2 = ['Architecture','House','USA'];
   }
-
 
 }
