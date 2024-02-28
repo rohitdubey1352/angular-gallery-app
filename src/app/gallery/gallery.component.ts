@@ -62,10 +62,10 @@ import { CommonModule } from '@angular/common';
 })
 export class GalleryComponent {
   photos = [
-    {url: '../assets/img (1).jpg', title: 'Img_1'},
-    {url: '../assets/img (2).png', title: 'Img_2'},
+    {url: 'https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Img_1'},
+    {url: 'https://images.pexels.com/photos/18822072/pexels-photo-18822072/free-photo-of-exterior-of-a-modern-residential-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Img_2'},
     {url: 'https://images.pexels.com/photos/20147829/pexels-photo-20147829/free-photo-of-businesswoman-in-black-suit.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load', title: 'Img_3'},
-    {url: '../assets/img (1).png', title: 'Img_4'},
+    {url: 'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Img_4'},
   ]
   name: string;
   title: string;
